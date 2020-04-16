@@ -66,7 +66,7 @@ Only for use with Linux & Android
 ### DKMS
 This driver can be installed using [DKMS]. This is a system which will automatically recompile and install a kernel module when a new kernel gets installed or updated. To make use of DKMS, install the `dkms` package, which on Debian (based) systems is done like this:
 ```
-$ sudo apt-get install dkms
+$ sudo apt-get install dkms bc -y
 ```
 
 ### Installation of Driver
